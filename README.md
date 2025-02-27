@@ -1,17 +1,46 @@
-# Analyzing-Layoffs-in-the-Top-20-Affected-States-of-the-US
+# **Analyzing Layoffs in the Top 20 Affected States of the US**
 
-#Steps Performed:
+## **Overview**
+This project analyzes workforce layoffs in the top 20 most affected states in the U.S. The goal is to uncover trends, patterns, and insights using data visualization and analytics. The analysis includes historical layoff data, sector-wise trends, geographical distribution, and potential economic implications.
 
-Data Extraction 
+## **Dataset**
+The dataset used in this analysis comprises information on layoffs across different states and industries in the U.S. It includes attributes such as:
 
-Data Cleaning using Python 
+- **State** – The U.S. state where layoffs occurred.
+- **Company Name** – The organization that experienced layoffs.
+- **Industry** – The sector to which the company belongs (e.g., Tech, Healthcare, Retail, etc.).
+- **Layoff Date** – The date on which layoffs were announced or implemented.
+- **Number of Employees Laid Off** – The count of employees affected by layoffs.
+- **Total Employees** – The total number of employees in the organization before layoffs.
+- **Percentage Laid Off** – The proportion of affected employees within the organization.
 
-Data Modeling (ER diagrams) 
+## **Analysis & Key Insights**
+The analysis covers:
 
-Design in MySQL
+- ✅ State-wise Layoff Trends – Identifies which states are most affected and how layoffs are distributed.
+- ✅ Industry-Wise Impact – Highlights which sectors faced the highest layoffs.
+- ✅ Temporal Trends – Examines layoff patterns over time.
+- ✅ Company-Wise Layoff Trends – Investigates which companies had the highest layoffs and possible reasons.
+- ✅ Correlation Analysis – Looks at external factors (e.g., economic downturns, policy changes) affecting layoffs.
+- ✅ Data Visualizations – Includes bar charts, heatmaps, line graphs, and more for deeper insights.
 
-Data Analysis
+## **Visualizations**
+Some key visualizations include:
 
-Data Visualization 
+- 📊 Bar Charts – Top 20 states with the most layoffs.
+- 🌎 Choropleth Maps – Geographical distribution of layoffs.
+- 📈 Time-Series Graphs – Trends of layoffs over time.
+- 🔗 Correlation Heatmaps – Relationship between economic factors and layoffs.
 
-In this project I have developed two pipelines for loading various CSV files into MySQL Workbench. In the first approach, I have utilized Python to ingest the CSV files, conduct cleaning and transformation operations within Python, and subsequently establish a MySQL connection via Python to load the transformed data into MySQL Workbench tables. Alternatively, in the second pipeline, I leveraged Apache NiFi as our ETL tool to read the data, perform transformations into JSON format, and then convert the JSON data into SQL. This SQL data is then loaded into MySQL Workbench tables.
+**Technologies Used**
+- Programming Language: Python
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Plotly
+- Visualization Tools: Tableau, Power BI (if applicable)
+- Jupyter Notebooks for interactive analysis
+- Future Improvements
+- 🔹 Predictive Analysis – Using machine learning models to predict layoffs.
+- 🔹 Economic Indicators Correlation – Analyzing relationships with GDP, unemployment rates, etc.
+- 🔹 Interactive Dashboard – Developing a dynamic dashboard for layoff trends visualization.
+
+
+
