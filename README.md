@@ -1,7 +1,14 @@
 # **Analyzing Layoffs in the Top 20 Affected States of the US**
 
-## **Overview**
-This project analyzes workforce layoffs in the top 20 most affected states in the U.S. The goal is to uncover trends, patterns, and insights using data visualization and analytics. The analysis includes historical layoff data, sector-wise trends, geographical distribution, and potential economic implications.
+## 📌 Overview
+This project provides an in-depth analysis of workforce layoffs across the top 20 most affected states in the United States. The goal is to uncover key trends, patterns, and economic impacts using data visualization, analytics, and statistical insights.
+
+The analysis explores:
+✔ Historical Layoff Trends – Understanding layoffs over time
+✔ Sector-Wise Breakdown – Identifying industries most impacted
+✔ Geographical Distribution – Analyzing layoffs across states
+✔ Economic Implications – Studying unemployment effects & policy impacts
+
 
 ## **Dataset**
 The dataset used in this analysis comprises information on layoffs across different states and industries in the U.S. It includes attributes such as:
